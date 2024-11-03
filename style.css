@@ -1,5 +1,61 @@
 body {
     width: 100%;
     height: 100%;
-    margin: 0 auto;
+}
+
+.map {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lobby {
+    background-image: url("Images/lobby.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box-one {
+    background-color: #007BFF;
+    border-radius: 15px; /* Rounded corners */
+    padding: 15px; /* Padding inside the box */
+    width: 100%;
+    height: 100%;
+}
+
+.character {
+    display: flex;
+    align-items: center;
+}
+
+.chat {
+    background-color: #007BFF;
+    border-radius: 15px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.chat .question {
+    cursor: pointer; /* Pointer cursor for clickable questions */
+    margin: 8px 0; /* Margin between questions */
+}
+
+.chat .question:hover {
+    text-decoration: underline;
+}
+
+.response {
+    margin-top: 15px; /* Space above the response */
+    font-weight: bold; /* Bold text for response */
+    color: #333; /* Dark text color */
 }
